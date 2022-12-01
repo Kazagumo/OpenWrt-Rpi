@@ -16,12 +16,12 @@ on:
   #   types: started
 
 env:
-  CONFIG_FILE: config/bcm27xx/bcm2708.config
-  SOURCE_URL: https://github.com/immortalwrt/immortalwrt
-  SOURCE_BRANCH: openwrt-18.06-k5.4
+  CONFIG_FILE: config/msm89xx/msm8916.config
+  SOURCE_URL: https://github.com/HandsomeMod/HandsomeMod
+  SOURCE_BRANCH: master
   DIY_SH: scripts/custom.sh
   TOOLCHAIN_TAG: toolchain
-  CLASH_BINARY_PLATFORM: armv6
+  CLASH_BINARY_PLATFORM: armv8a
   TOOLCHAIN_RELEASE_UPLOAD: true
   FIRMWARE_RELEASE_UPLOAD: true
   WEB_ROOT_PATH: /data/www/openwrt.cc
