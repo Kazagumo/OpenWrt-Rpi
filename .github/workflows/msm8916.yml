@@ -16,7 +16,7 @@ on:
   #   types: started
 
 env:
-  CONFIG_FILE: config/msm89xx/msm8916.config
+  CONFIG_FILE: config/msm8916.config
   SOURCE_URL: https://github.com/HandsomeMod/HandsomeMod
   SOURCE_BRANCH: master
   DIY_SH: scripts/custom.sh
